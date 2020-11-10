@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Songs</string>
+    <string name="sort_name">Sort</string>
+    <string name="search_name">Search</string>
+    <string name="settings_name">Settings</string>
+    <string name="language_name">Language:</string>
+    <string name="infoGroupDescription_name">Twenty One Pilots (also often styled as twenty one pilots or TWENTY ØNE PILØTS) is an American duet from Columbus, Ohio. The group was formed in 2009 and currently consists of Tyler Joseph and Josh Dan. The collective independently released two albums: Twenty One Pilots in 2009 and Regional at Best in 2011. In 2012, the musicians signed a contract with Fueled by Ramen, in 2013 released the studio album Vessel, in 2015 - Blurryface, and in 2018 the new album Trench.
+        </string>
+    <string name="font_name">Fonts:</string>
+    <string name="default_font_name">Default</string>
+    <string name="inder_font_name">Inder</string>
+    <string name="textsize_name">Text size: </string>
+    <string name="confirm_textsize_name">Confirm text changes: </string>
+</resources>

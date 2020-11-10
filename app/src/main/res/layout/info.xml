@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:id="@+id/linLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_info_group" />
+
+        <TextView
+            android:id="@+id/infoGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/imageInfo"
+            android:text="@string/infoGroupDescription_name"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="360dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"/>
+
+<!--    <VideoView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/video"/>-->
+
+<!--    <WebView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/video" />-->
+
+<!--    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+<!--        android:id="@+id/youtube_player_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:enableAutomaticInitialization="false"-->
+<!--        app:autoPlay="false"-->
+<!--        app:useWebUi="true"/>-->
+
+
+
+
+</LinearLayout>

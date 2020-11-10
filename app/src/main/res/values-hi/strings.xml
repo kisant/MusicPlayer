@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">गाणी</string>
+    <string name="sort_name">क्रमवारी लावा</string>
+    <string name="search_name">शोधा</string>
+    <string name="settings_name">सेटिंग्ज</string>
+    <string name="language_name">इंग्रजी:</string>
+    <string name="infoGroupDescription_name">एकवीस पायलट (बहुधा एकवीस पायलट किंवा ट्वेंटी-एन पिलट्स असेही होते) हे कोलंबस, ओहायो येथील अमेरिकन युगल आहे. हा गट २०० in मध्ये तयार झाला होता आणि सध्या त्यात टायलर जोसेफ आणि जोश डॅन आहेत. सामूहिकरित्या स्वतंत्रपणे दोन अल्बम जारी करण्यात आले: २०० in मधील ट्वेन्टी वन पायलट आणि २०११ मध्ये रीजनल अ‍ॅट बेस्ट. २०१२ मध्ये, संगीतकारांनी फ्यूलेड रॅमन यांच्याशी करार केला, २०१ in मध्ये वेसल स्टुडिओ अल्बम २०१ 2015 मध्ये प्रसिद्ध केला - ब्लरिफेस आणि २०१ in मध्ये नवीन अल्बम खंदक.
+        </string>
+    <string name="font_name">फॉन्ट:</string>
+    <string name="default_font_name">डीफॉल्ट</string>
+    <string name="inder_font_name">इनडर</string>
+    <string name="textsize_name">मजकूर आकार:</string>
+    <string name="confirm_textsize_name">मजकूर आकाराची पुष्टी करा</string>
+</resources>

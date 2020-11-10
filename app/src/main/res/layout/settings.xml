@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/language_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:id="@+id/languages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp">
+
+            <RadioButton
+                android:id="@+id/eng_lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:textColor="@color/colorAccent"
+                android:onClick="setEngLang"/>
+
+            <RadioButton
+                android:id="@+id/indus_lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="हिंदी"
+                android:textColor="@color/colorAccent"
+                android:onClick="setIndLang"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/font_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:id="@+id/fonts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp">
+
+            <RadioButton
+                android:id="@+id/defaultFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="setDefaultFont"
+                android:text="@string/default_font_name"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:id="@+id/inderFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="setInderFont"
+                android:text="@string/inder_font_name"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textsize_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:max="10"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/confirmTextSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_textsize_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
